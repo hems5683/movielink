@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [{ "src": "app.py", "use": "@vercel/python" }],
+  "routes": [
+    {
+      "src": "/api/get_video_info",
+      "dest": ".vercel/functions/app"
+    }
+  ],
+  "env": {
+    "PYTHON_VERSION": "3.7"  // Replace with your desired Python version
+  }
+}
