@@ -1,9 +1,0 @@
-{
-  "name": "my-video-api",
-  "scripts": {
-    "start": "python3.7 app.py"  // Replace 'script_name.py' with your Python script's name
- },
-  "dependencies": {
-    "python": "3.7"
-  }
-}
